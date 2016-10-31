@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Category": {
+    "dataSource": "mysqlDB",
+    "public": true
+  },
+  "Choice": {
+    "dataSource": "mysqlDB",
+    "public": true
+  },
+  "Comment": {
+    "dataSource": "mysqlDB",
+    "public": true
+  },
+  "Criteria": {
+    "dataSource": "mysqlDB",
+    "public": true
+  },
+  "Decision": {
+    "dataSource": "mysqlDB",
+    "public": true
+  },
+  "DecisionParticipant": {
+    "dataSource": "mysqlDB",
+    "public": true
+  },
+  "Participant": {
+    "dataSource": "mysqlDB",
+    "public": true
+  }
+}
