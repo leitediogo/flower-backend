@@ -50,7 +50,9 @@
   },
   "Decision": {
     "dataSource": "mysqlDB",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "DecisionParticipant": {
     "dataSource": "mysqlDB",
